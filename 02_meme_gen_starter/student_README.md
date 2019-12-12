@@ -65,10 +65,10 @@ Custom extension classes to handle possible exception cases that may occur while
 
 ## Project Modules
 The project has 4 modules:
-- `helper_func`: contain helper functions
-- `quote_engine`: Contain classes to extract a file's content and prepare them for captioning.
-- `meme_generator`: Contain files for image captioning.
-- `app_exceptions`: contain files for exception handling. 
+- [helper_func](https://github.com/Eyongkevin/PYND/tree/master/02_meme_gen_starter/src/helper_func): contain helper functions
+- [quote_engine](https://github.com/Eyongkevin/PYND/tree/master/02_meme_gen_starter/src/quote_engine): Contain classes to extract a file's content and prepare them for captioning.
+- [meme_generator](https://github.com/Eyongkevin/PYND/tree/master/02_meme_gen_starter/src/meme_generator): Contain files for image captioning.
+- [app_exceptions](https://github.com/Eyongkevin/PYND/tree/master/02_meme_gen_starter/src/app_exceptions): contain files for exception handling. 
 
  and each module contains a readme file that describes in detail its functionality. Click on each link above to view their readme.
 
