@@ -2,7 +2,7 @@
 
 ## Udacity - Intermediate Python Nanodegree
 
-![demo gif](./demo2.gif)
+![demo gif](../demo2.gif)
 
 ## Introduction
 This is a Udacity project which takes in images and captions them with quotes. I will walk you through my implementation as required in the rubric.
@@ -33,7 +33,7 @@ $ python meme.py --path  './_data/photos/dog/xander_1.jpg' --body "Do something 
 ```
 The above command returns the path to the captioned image. This captioned image will be stored in the `./temp/` folder
 
-![captioned image](./demo3.jpg)
+![captioned image](../demo3.jpg)
 
 > I am not the author of that quote, I just used my name as the author for demonstration purposes and also because it is my favorite quote
 
