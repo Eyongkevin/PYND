@@ -1,0 +1,36 @@
+- Write custom Exception class with methods to throw appropriate exception
+- Add more images and text. 
+- Allow it to handle json files.
+- Process quote text and author
+  - wrap and or reduce font size if too long
+  - positioning of the quote
+- Add more information to image gotten from url
+    - Source link
+    - Date and time modified by app
+
+- Add my sign, maybe '@kevin enow'
+- Option to choice font style, size and color
+- Option to choice where the body/author should display on image
+- Option to download captioned image(If I am to publish the app)
+- Option to blur the image a bit
+
+
+**** Exceptions ****
+ IOError - on open() or on os operation
+	- FileNotFoundError
+	- InvaidFile
+	- DirectoryPathNotFound
+   * Check if file(os.path.isfile) and if dir(os.path.isdir) instead of the general os.path.exists
+
+
+
+Document each function with docstrings
+Documentation of main project and each modules with readme
+Push to github
+
+
+
+########### How to install pdftotext
+sudo apt-get update -y
+sudo apt-get install -y libpoppler-cpp-dev
+pip3 install pdftotext

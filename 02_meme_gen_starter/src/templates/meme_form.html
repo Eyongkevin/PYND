@@ -6,11 +6,11 @@
         <form action="{{url_for('meme_post')}}" method="POST">
             <div class="form-group">
                 <label for="image_url">Image URL</label>
-                <input type="url" class="form-control" id="image_url" aria-describedby="image url" placeholder="Enter a url for an image" name="image_url">
+                <input type="url" class="form-control" id="image_url" aria-describedby="image url" placeholder="Enter a url for an image" name="image_url" required>
             </div>
             <div class="form-group">
                 <label for="body">Quote Body</label>
-                <input type="text" class="form-control" id="body" aria-describedby="Quote Body" placeholder="To be or not to be" name="body">
+                <input type="text" class="form-control" id="body" aria-describedby="Quote Body" placeholder="To be or not to be" name="body" required>
             </div>
             <div class="form-group">
                 <label for="author">Quote Author</label>

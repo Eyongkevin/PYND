@@ -1,0 +1,6 @@
+Flask==1.1.1
+pdftotext==2.1.2
+python-docx==0.8.10
+requests==2.22.0
+Pillow==6.2.1
+pandas==0.22.0

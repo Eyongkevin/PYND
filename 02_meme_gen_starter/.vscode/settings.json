@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "venv/bin/python",
+    "python.pythonPath": "/home/tony/anaconda3/bin/python",
     // "python.linting.pylintPath": "venv/bin/pylint"
 }
