@@ -3,6 +3,8 @@
 /02_meme_gen_starter/src/work_test.ipynb
 /02_meme_gen_starter/src/testing.ipyng
 **/02_meme_gen_starter/env
+**/__pycache__/
+.venv/
 
 
 

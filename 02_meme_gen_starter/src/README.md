@@ -86,4 +86,21 @@ For the flask app version, we have two buttons:
 - Quote's body shouldn't be too long. Even though I implemented a function to wrap the body of the quote, it could still overflow if too long.
 - Clear browser cache each time before running the flask server. When I run it at my end, I experience some cache issues where the app keeps returning the same result for different entries.
 
+## Issues
+- To install pdftotext, check this [resource](https://stackoverflow.com/questions/45912641/unable-to-install-pdftotext-on-python-3-6-missing-poppler)
+- `ANTIALIAS` is deprecated in recent versions of Pillow. Check [here](https://stackoverflow.com/questions/76616042/attributeerror-module-pil-image-has-no-attribute-antialias)
+- `getsize` of ImageFont is deprecated in recent versions of Pillow. Check [here](https://github.com/tensorflow/models/issues/11040)
+- Create the folder `tmp` that will be used to download and store images when used with CLI.
+- Example link: https://onlinejpgtools.com/images/examples-onlinejpgtools/sunflower.jpg
 
+
+## Get caption from image and auto-generate quotes
+- We shall use the following
+    - ML module: https://huggingface.co/nlpconnect/vit-gpt2-image-captioning
+    - quotes api: https://api.quotable.io/search/quotes?query=dog
+
+### Process
+- Build from CLI
+    - ignore the flag for text and author, then it will be auto-generated from image.
+- Build from Flask
+    - Ignore input fields for text and author, then it will be auto-generated from image.
